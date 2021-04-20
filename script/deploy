@@ -1,8 +1,8 @@
 #!/bin/sh
 ssh pipeline@45.55.48.116 <<EOF
- cd ~/node-app
- git pull
- npm install — production
- pm2 restart all
- exit
+cd ~/node-app
+git pull
+npm install — production
+pm2 restart all
+exit
 EOF
