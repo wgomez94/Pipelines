@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ezderman@NODE.SERVER.IP <<EOF
+ssh pipeline@45.55.48.116 <<EOF
  cd ~/node-app
  git pull
  npm install — production
